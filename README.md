@@ -7,4 +7,4 @@ This is a simple script write in Python for OBS Studio for backup and restore yo
 > [!NOTE]
 > Go to `Tools` then `Scripts` to add this script with the `+` button.
 >
-> For getting GitHub token for accessing to your repo, you need to go [here](https://github.com/settings/tokens), then create a classic token, so go to `Token (classic)`, `Generate new token` then `Generate new token (classic)`. On `select scopes`, you just need to check `repo`.
+> For getting GitHub token for accessing to your repo, you need to go [here](https://github.com/settings/tokens), then create a classic token, so go to `Token (classic)`, `Generate new token` then `Generate new token (classic)`. On `select scopes`, you just need to check the checkbox `repo`.
