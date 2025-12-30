@@ -1,4 +1,4 @@
-# OBS Backup Restore And Restore (OBSBAR)
+# OBS Backup Restore And Restore (BAR)
 # plugin for OBS Studio for backup & restore configs files on local disk or in a GitHub repo
 # note: a GitHub token with repo access is required for GitHub backups/restores
 # works well on Windows and Linux (not tested on macOS, but it should work)
@@ -219,7 +219,7 @@ class GitHubClient:
     def _headers(self):
         h = {
             "Accept": "application/vnd.github.v3+json",
-            "User-Agent": "OBSBAR",
+            "User-Agent": "BAR",
         }
         if self.token:
             h["Authorization"] = f"Bearer {self.token}"
@@ -541,7 +541,7 @@ def script_description():
         "OBS Backup And Restore script can restore or backup from a local folder or from GitHub. (you will need token for GitHub backup/restore)\n"
         "If you choose GitHub, you can restore a existing backup from a GitHub repo, so you will need to fetch present backups to select one.\n"
         "NOTE: you need to fetch accessible GitHub repos after entering a token to select one.\n\n"
-        "OBSBAR by celestial04_"
+        "BAR by celestial04_"
     )
 
 
